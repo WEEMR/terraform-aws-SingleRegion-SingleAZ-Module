@@ -1,6 +1,6 @@
 // AWS VPC
 resource "aws_vpc" "My_First_VPC" {
-  cidr_block           = var.USEast1_VPC
+  cidr_block           = var.VPC_CIDR
   enable_dns_support   = true
   enable_dns_hostnames = true
   enable_classiclink   = false
