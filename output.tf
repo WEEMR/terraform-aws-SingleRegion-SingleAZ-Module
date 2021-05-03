@@ -1,5 +1,5 @@
 output "VPC_CIDR" {
-  value = var.USEast1_VPC
+  value = var.VPC_CIDR
 }
 
 output "Public_Subnet_CIDR" {
