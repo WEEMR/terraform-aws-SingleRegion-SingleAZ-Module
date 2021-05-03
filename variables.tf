@@ -8,11 +8,11 @@ variable "username" {}
 variable "keyname" {}
 
 
-variable "US_East_1" {
+variable "Region" {
   default = "us-east-1"
 }
 
-variable "USEast1_VPC" {
+variable "VPC_CIDR" {
   default = "10.150.0.0/16"
 }
 
